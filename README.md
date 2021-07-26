@@ -6,5 +6,3 @@ Weather Journal Application
 - send POST request to my server with collected weather data.
 
 - send GET request to my server to get stored data to be displayed to the user.
-
-- link to check ***https://mustafa-montaser.github.io/project_2-WeatherJournalApp-Udacity-professional-track/***
