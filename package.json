@@ -4,6 +4,7 @@
     "description": "weather-journal-app which send GET request to openWeatherMap website to get weather info , send POST request to my server to store incoming data and send GET request to my server to fetch the stored data to be shown to the user as a dynamic UI",
     "main": "server.js",
     "dependencies": {
+        "body-parser": "^1.19.0",
         "cors": "^2.8.5",
         "express": "^4.17.1"
     },
