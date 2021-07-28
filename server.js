@@ -7,6 +7,16 @@ const app = express();
 //Here we are configuring express to use body-parser as middle-ware.
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+
+/*  I comment body-parser becaue it is deperacted and use express as above instead
+// Dependencies 
+const bodyParser = require('body-parser')
+// Middleware
+//Here we are configuring express to use body-parser as middle-ware.
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+*/
+
 // Cors for cross origin allowance
 const cors = require("cors");
 app.use(cors());
