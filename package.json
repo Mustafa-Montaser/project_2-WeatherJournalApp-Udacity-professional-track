@@ -1,0 +1,32 @@
+{
+    "name": "project_2-weatherjournalapp-udacity-professional-track",
+    "version": "1.0.0",
+    "description": "weather-journal-app which send GET request to openWeatherMap website to get weather info , send POST request to my server to store incoming data and send GET request to my server to fetch the stored data to be shown to the user as a dynamic UI",
+    "main": "server.js",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mustafa-Montaser/project_2-WeatherJournalApp-Udacity-professional-track.git"
+    },
+    "keywords": [
+        "node.js",
+        "express.js",
+        "GET",
+        "POST",
+        "weather"
+    ],
+    "author": "Mustafa Mohamed Montaser",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mustafa-Montaser/project_2-WeatherJournalApp-Udacity-professional-track/issues"
+    },
+    "homepage": "https://github.com/Mustafa-Montaser/project_2-WeatherJournalApp-Udacity-professional-track#readme"
+}
